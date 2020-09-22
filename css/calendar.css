@@ -1,0 +1,79 @@
+/*OK*/  #calendar {
+            width: 62%;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+/*OK*/  #calendar #app-name-portrait {
+            display: none;
+        }
+
+/*OK*/  #calendar #theme-portrait {
+            display: none;
+        }
+
+/*OK*/  #calendar thead tr:first-child th div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+/*OK*/  #calendar  h4 {
+            margin: 0;
+            padding: 0.8vw 0 0.2vw;
+            font-size: 1.4vw;
+            font-weight: 300;
+        }
+
+/*OK*/  #calendar h3 {
+            font-size: 2vw;
+            font-weight: 700;
+            margin: 0;
+            padding: 0 2vw;
+            display: inline-block;
+        }
+
+/*OK*/  #calendar .weekday {
+            font-size: 1.7vw;
+            font-weight: 300;
+            padding: 8px 0 5px;           
+            border-bottom: 1px solid white !important;
+    }
+
+/*OK*/   #calendar .icon {
+            font-size: 1.2vw;
+        }
+
+/*OK*/  #calendar .icon:hover {
+            opacity: 0.6;
+        } 
+
+/*OK*/  #calendar tbody td {
+            height: 5.2vw;
+            width: 5.2vw;
+            font-size: 0.8vw;
+            font-weight: 600;
+            vertical-align: top;
+            padding: 0.5vw;
+            transition: font-size .4s ease;
+        }
+
+/*OK*/  #calendar tbody td:hover {
+            font-size: 1.2vw;
+        }
+
+/*OK*/  #calendar #current-day {
+            background-color: #E1E1E1;
+        }
+
+/*OK*/  #calendar img {
+            width: 3.8vw;
+            vertical-align: top;
+            position: relative;
+            top: 0.5vw;
+        }
+
+
